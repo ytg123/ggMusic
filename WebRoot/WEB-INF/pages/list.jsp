@@ -46,7 +46,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						</c:if>
 						<c:if test="${not empty user}">
 							<span class="sgl_items">
-							<img alt="头像" data-address="${user.address }" id="infoUser" src="${user.headerPic}" width="30" height="30" style="border-radius:50%;margin-top: -6px;"/>
+							<img alt="头像" data-address="${user.address }" id="infoUser" src="/${user.headerPic}" width="30" height="30" style="border-radius:50%;margin-top: -6px;"/>
 							<a href="${basePath }/user/index">【${user.username}】</a><a href="${basePath}/logout">【退出】</a>
 							</span>
 						</c:if>
