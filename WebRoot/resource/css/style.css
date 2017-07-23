@@ -1,0 +1,131 @@
+*{padding:0px;margin:0px;}
+img{border:0px}
+ul li{list-style:none;}
+.fr{float:right}
+.fl{float:left}
+.hide{display: none;}
+.show{display: block;}
+::selection{background:#86AE87;color:#fff;}
+a{text-decoration:none;color:#333}
+body{font-size:14px;font:14px/22px Verdana,'微软雅黑','Microsoft YaHei',Helvetica,Arial;background:#f9f9f9}
+#warp{width:640px;height:560px;margin:50px auto;}
+
+/*封面图*/
+#warp .vol-cover-wrapper{margin-top:15px;}
+/*内容区域*/
+#warp  .txt p{line-height: 30px;}
+/*播放器*/
+#warp  .music{width: 100%;}
+#warp  .music .img{width: 48%;height: 380px;text-align:center;}
+#warp  .music .img #musicbjF{border-radius:50%;width: 280px;height:280px;margin-top: 50px;}
+#warp  .music .fn{width: 50%;height: 100%;}
+#warp  .music .fn .top{width: 100%;height: 40px;background: olive;}
+#warp  .music .fn .top #h3{line-height: 40px;width:100%;height:40px;text-align:center;}
+#warp  .music .fn .center{width: 100%;height: 120px;text-align: center;overflow: hidden;}
+
+/*功能操作区*/
+#warp  .music .fn .bot{width: 100%;height: 190px;text-align: center;overflow: hidden;}
+#warp  .music .fn .bot a{width: 25%;height: 60px;display: inline-block;line-height: 60px;margin: 15px 5px;font-size: 22px;text-decoration: none;color:#333;}
+#warp  .music ul{margin-top: 20px;}
+#warp  .music ul li{width: 100%;height: 30px;line-height: 30px;margin-bottom: 10px;background: #E4E4E4;padding-left: 10px;cursor: pointer;}
+#warp  .music ul li:hover{background: #1B6D85;}
+#warp .music ul li:hover a{color:#fff;}
+#warp .music ul li:hover{color:#fff;}
+/*进度条*/
+.percent{width: 30%;height: 10px;background:#eaeaea;border-radius: 5px;position: relative;top:48px;left: 4px;}
+.percent #pcs{width: 10%;background: #333;height: 10px;border-radius: 5px;}
+.percent #dot{width: 14px;height: 14px;background: #fff;cursor: pointer;border-radius: 50%;position: absolute;top: -2px;left: 8%;cursor: pointer;z-index: 2;}
+.percent #over{width: 100%;height: 100%;background: transparent;border-radius: 5px;position: absolute;top: 0;left: 0;cursor: pointer;z-index: 1;}
+/*音量*/
+.percents{width: 20%;height: 8px;background:#666;border-radius: 5px;position: relative;top:31%;left: 1%;}
+.percents #pcs2{width: 10%;background: #eaeaea;height: 8px;border-radius: 8px;}
+.percents #dot2{width: 12px;height: 12px;background: pink;cursor: pointer;border-radius: 50%;position: absolute;top: -2px;left: 6%;cursor: pointer;z-index: 2;}
+.percents #over2{width: 100%;height: 100%;background: transparent;border-radius: 5px;position: absolute;top: 0;left: 0;cursor: pointer;z-index: 1;}
+/*音量*/
+#mut{margin-top: 16%;margin-right: -4%;cursor: pointer;}
+.zsc{margin-top: 34px;margin-left: 0;}
+/*分栏*/
+.wrap{width: 100%;max-height: 300px;position: fixed;bottom: 0;left: 0;z-index:10;}
+.wrap .myitem{position: absolute;bottom: 0;left:0;}
+/*内容区域*/
+.contentbox{margin:50px auto;border-radius:4px;height:140px;border:1px solid #eaeaea;background:#fff;overflow:hidden;}
+.t_content{overflow:auto;height:88px;width:548px;border:none;font-size:14px;color:#999;padding:5px;font-family:"微软雅黑";outline:none;}
+.btn{background:#F2C5C3;color:#fff;margin-right:20px;padding:5px 10px;border-radius:4px;}
+.btn:hover{background:#DD5862;transition:all 1s ease;}
+.editorbtn{height:42px;background:#f2f2f2;line-height:42px;padding-left:20px;color:#888}
+/*评论列表区域*/
+.comment-list{margin:0 auto;}
+.comment-list .item{border-bottom:1px solid #e5e5e5;height:100%;width:100%;margin-bottom:25px;padding-bottom:20px;}
+.comment-list .avatar-wrapper{display:block;float:left;overflow:hidden;padding:5px 6px 0px 0px}
+.comment-list .avatar{height:32px;width:32px;border-radius:3px;}
+.comment-list .item-wrapper{margin-left:38px;height:100%;}
+.comment-list .username{font-size:12px;color:#dd5862;}
+.comment-list .comment-ct{margin:4px 0 18px;}
+.comment-list .comment-ct{margin:4px 0 18px;}
+/*背景图片*/
+.lay_background{position:fixed;left:0;top:0;z-index:-1;overflow:hidden}
+.lay_background .lay_background_img{position:fixed;left:0;top:0;z-index:-1;width:100%;}
+.lay_background .lay_background_img img{width:100%;}
+@keyframes cykeke{from{transform:rotate(0deg)}
+5%{transform:rotate(20deg)}
+10%{transform:rotate(30deg)}
+15%{transform:rotate(40deg)}
+20%{transform:rotate(50deg)}
+25%{transform:rotate(60deg)}
+30%{transform:rotate(70deg)}
+35%{transform:rotate(80deg)}
+40%{transform:rotate(90deg)}
+45%{transform:rotate(120deg)}
+50%{transform:rotate(140deg)}
+55%{transform:rotate(160deg)}
+60%{transform:rotate(180deg)}
+65%{transform:rotate(200deg)}
+70%{transform:rotate(220deg)}
+75%{transform:rotate(240deg)}
+80%{transform:rotate(260deg)}
+85%{transform:rotate(280deg)}
+90%{transform:rotate(300deg)}
+92%{transform:rotate(320deg)}
+96%{transform:rotate(340deg)}
+to{transform:rotate(360deg)}
+}
+@-webkit-keyframes cykeke{from{transform:rotate(0deg)}
+5%{transform:rotate(20deg)}
+10%{transform:rotate(30deg)}
+15%{transform:rotate(40deg)}
+20%{transform:rotate(50deg)}
+25%{transform:rotate(60deg)}
+30%{transform:rotate(70deg)}
+35%{transform:rotate(80deg)}
+40%{transform:rotate(90deg)}
+45%{transform:rotate(120deg)}
+50%{transform:rotate(140deg)}
+55%{transform:rotate(160deg)}
+60%{transform:rotate(180deg)}
+65%{transform:rotate(200deg)}
+70%{transform:rotate(220deg)}
+75%{transform:rotate(240deg)}
+80%{transform:rotate(260deg)}
+85%{transform:rotate(280deg)}
+90%{transform:rotate(300deg)}
+92%{transform:rotate(320deg)}
+96%{transform:rotate(340deg)}
+to{transform:rotate(360deg)}
+}
+.program {height:10px;background:#E4D6D6;width:200px;float:left;margin-left:50px;margin-top:30px;border-radius:4px;position: relative;}
+.program .tz_per{background:#A1821A;width:0%;height:10px;border-radius:4px;position:absolute;z-index:2;top:0px;}
+.program .load{background:transparent;height:10px;border-radius:4px;position:absolute;z-index:3;top:0px;width:100%}
+.animated01{-webkit-animation:cykeke 1s infinite ease;animation:cykeke 1s infinite ease;}
+
+/*炫彩带*/
+#xcd{width: 100%;height: 3px;background: #eaeaea;position: relative;}
+#xcd span{display: inline-block;position: absolute;height: 3px;left: 50%;background: pink;}
+#xcd span:nth-child(2){background: #B848FF;}
+#xcd span:nth-child(3){background: #7AB900;}
+@keyframes dh{
+	from{width: 0%;z-index: 1;}
+	to{margin-left: -50%;width: 100%;z-index: 3;}
+}
+.move{animation: dh .8s  infinite alternate;}
+.d1{animation-delay: .6s;}
+.d2{animation-delay: .4s;}

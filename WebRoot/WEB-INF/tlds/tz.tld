@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+	<!-- 自定义标签的描述 -->
+	<description>潭州学院自定义标签tz</description>
+	<display-name>自定一标签-函数形式</display-name>
+	<tlib-version>1.0</tlib-version>
+	<!-- 自定义标签的前缀 -->
+	<short-name>tz</short-name>
+	<!-- 自定义标签的uri如果你采用的jstl1.2以上的版本 -->
+	<uri></uri>
+	<function>
+		<description>日期的几秒钟前功能</description>
+		<name>dataString</name>
+		<function-class>com.tz.util.TmFunctions</function-class>
+		<function-signature>java.lang.String dateToString2(java.util.Date)</function-signature>
+		<example>${tz:dataString("2015-12-12 12:12:12")} 1分钟以前</example>
+	</function>
+	
+	<function>
+		<description>通过ip获取地址</description>
+		<name>ipAddress</name>
+		<function-class>com.tz.util.TmFunctions</function-class>
+		<function-signature>java.lang.String ipAddress(java.lang.String)</function-signature>
+		<example>${tz:ipAddress("127.0.0.1")} 本地</example>
+	</function>
+	<function>
+		<description>格式化日期</description>
+		<name>formateDate</name>
+		<function-class>com.tz.util.TmFunctions</function-class>
+		<function-signature>java.lang.String formateDate(java.util.Date,java.lang.String)</function-signature>
+		<example>${tz:formateDate("2015-12-12 12:12:12",'yyyy')} 2015</example>
+	</function>
+	
+	<function>
+		<description>格式化流媒体的时长</description>
+		<name>audiotime</name>
+		<function-class>com.tz.util.TmFunctions</function-class>
+		<function-signature>java.lang.String mpstime(int)</function-signature>
+		<example>${tz:audiotime(183)} 03:04</example>
+	</function>
+</taglib>

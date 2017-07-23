@@ -1,0 +1,75 @@
+* {margin:0;padding:0}
+html {min-width:1000px}
+body {background:url(/images/tail-cont.gif) repeat center top #f2c142;font-family:Tahoma, Arial, helvetica, sans-serif;font-size:100%;line-height:1em;color:#000;min-width:1000px}
+input, textarea, select {font-family:Tahoma, Arial, helvetica, sans-serif;font-size:1em}
+input, select {vertical-align:middle;font-weight:normal}
+img {border:0;vertical-align:top;text-align:left}
+object {vertical-align:top;outline:none}
+/* global */
+#header, #content, #footer {font-size:0.75em}
+.wrapper {width:100%;overflow:hidden}
+.container {width:1000px;margin:0 auto;position:relative}
+.col-1, .col-2, .col-3 {float:left}
+.fleft {float:left}
+.fright {float:right}
+.clear {clear:both}
+.alignright {text-align:right}
+.aligncenter {text-align:center}
+.wrapper {width:100%;overflow:hidden}
+p {margin:0;padding:0}
+.tail-cont{position: relative;}
+.tail-top {background:url(/images/tail-top.gif) center top repeat-x}
+.tail-top-left {height:161px;position:absolute;left:0;top:0;width:50%;background:url(/images/tail-top-left.gif) repeat-x left top}
+.tail-bottom {background:url(/images/tail-bottom.png) left bottom repeat-x}
+/* forms */
+#contacts-form {clear:right;width:100%;overflow:hidden;padding:15px 0 0 0}
+#contacts-form fieldset {border:none;float:left;}
+#contacts-form .field {clear:both}
+#contacts-form label {float:left;width:97px;line-height:18px;padding-bottom:8px;font-weight:bold;color:#9f5827}
+#contacts-form input {width:227px;padding:1px 0 1px 3px;background:#fff;border-right:1px solid #db5100;border-left:0;border-top:0;border-bottom:1px solid #db5100;color:#70635b;float:left}
+#contacts-form textarea {width:518px;height:252px;padding:1px 0 1px 3px;background:#fff;border-left:0;border-top:0;border-right:1px solid #db5100;border-bottom:1px solid #db5100;color:#70635b;margin-bottom:15px;overflow:auto;float:left}
+/* list */
+ul {list-style:none}
+.nav {position:absolute;right:55px;top:56px}
+.nav li {float:left;padding-right:24px;margin-right:24px;background:url(/images/divider.gif) repeat-y right top;height:18px}
+.nav li.last {background:none;padding-right:0;margin-right:0}
+.site-nav {position:absolute;left:0;top:128px;z-index:2}
+.site-nav li {float:left;text-transform:uppercase;font-size:1.17em;background:url(/images/divider1.gif) repeat-y right top;line-height:1.08em}
+.site-nav li a {color:#515151;text-decoration:none;display:block;width:200px;padding:4px 0 3px 0;text-align:center}
+.site-nav li a:hover,
+.site-nav li a.act {color:#a24f00}
+.site-nav li.last {background:none}
+.list {margin-top:-17px;float: left;width:40px;}
+.list li {width:100%;overflow:hidden;vertical-align:top;padding-top:17px}
+.list li b {display:block;margin-bottom:4px}
+.list li img {float:left;margin-right:15px}
+.list1 {padding-bottom:15px;margin:0;font-weight:bold}
+.list1 li {padding:0 0 6px 8px;background:url(/images/marker.gif) no-repeat left 6px}
+.list1 li ul {padding:8px 0 0 12px;margin-bottom:-4px}
+#gTable{width:100%;border-collapse: collapse;}
+#gTable thead tr th,#gTable tbody tr td{text-align:center;border:1px solid #FFF559;height:30px;line-height:30px;}
+.addPeriod{float:right;margin-bottom:15px;background:#f50;color:#fff;border-radius:5px;text-align:center;line-height:30px;width:80px;height:30px;}
+/* other */
+.img-box1 {width:100%;overflow:hidden;padding-bottom:12px}
+.img-box1 img {float:left;margin:0 20px 0 0}
+.p1 {margin-bottom:20px;text-indent:2em;line-height:25px;}
+/* txt, links, lines, titles */
+a {color:#c9710c;outline:none;text-decoration: none;}
+a:hover{text-decoration:none}
+h2, h3 {color:#c9710c;line-height:1.2em;margin-bottom:20px}
+h2 {font-size:36px}
+h3 {font-size:25px}
+.link {text-align:right;font-weight:bold}
+/*header*/
+#header {background:url(/images/header-bg.jpg) no-repeat left top;height:161px}
+#header .logo {position:absolute;left:18px;top:3px}
+/*content*/
+#content {background:url(/images/cont-bg.jpg) no-repeat left top;min-height:561px;height:auto!important;height:561px}
+#content .indent {padding:50px 50px 50px 329px}
+#content .inner_copy {border:0;color:#fff;float:right;width:0.09%!important;margin:-100px;overflow:hidden;line-height:0px;padding:0px;font-size:11px}
+#content .indent1 {padding-bottom:37px}
+/*footer*/
+#footer {height:79px}
+#footer .indent {padding:32px 50px 20px 50px}
+#footer a {color:#de7715}
+#footer img {position:relative;top:-4px}
